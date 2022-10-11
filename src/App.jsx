@@ -1,19 +1,12 @@
-import './App.css';
-import { ReactDOM, useState } from 'react';
-import useInput from './Hooks/useInput';
-
-
-
+import "./App.css";
+import UseInputComponent from "./components/UseInputComponent";
+import UseTabComponent from "./components/UseTabComponent";
 
 function App() {
-  const maxLen = (value) =>  value.length <= 10;
-
-  const name = useInput("Mr.", maxLen)
-
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <input placeholder='Name' {...name}/>
+      <UseInputComponent />
+      <UseTabComponent />
     </div>
   );
 }
