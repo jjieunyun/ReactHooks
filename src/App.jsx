@@ -5,6 +5,7 @@ import UseTitle from "./components/UseTitle";
 import UseClick from "./components/UseClick";
 import UseConfirm from "./components/UseConfirm";
 import UsePreventLeave from "./components/UsePreventLeave";
+import UseBeforeLeave from "./components/UseBeforeLeave";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <UseConfirm/>
       <hr/>
       <UsePreventLeave/>
+      <hr/>
+      <UseBeforeLeave/>
     </div>
   );
 }

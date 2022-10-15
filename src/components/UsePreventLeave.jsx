@@ -1,20 +1,5 @@
 import React from 'react';
-
-const usePreventLeave = ()=>{
-  const listener = (event) => {
-    event.preventDefault();
-    event.returnValue = '';
-  }
-
-  const enablePrevent = () => {
-    window.addEventListener('beforeunload',listener)
-  }
-  const disablePrevent = () => {
-    window.removeEventListener('beforeunload',listener)
-  }
-
-  return { enablePrevent, disablePrevent }
-}
+import usePreventLeave from "../Hooks/usePreventLeave";
 
 function UsePreventLeave(props) {
   const { enablePrevent, disablePrevent } = usePreventLeave()
