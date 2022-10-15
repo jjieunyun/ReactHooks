@@ -11,6 +11,7 @@ import UseNetwork from "./components/UseNetwork";
 import UseScroll from "./components/UseScroll";
 import UseFullscreen from "./components/UseFullscreen";
 import UseNotification from "./Hooks/useNotification";
+import UseAxios from "./components/UseAxios";
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
         <UseFullscreen/>
       <hr/>
       <UseNotification/>
+      <hr/>
+      <UseAxios/>
     </div>
   );
 }
