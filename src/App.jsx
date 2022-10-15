@@ -2,6 +2,7 @@ import "./App.css";
 import UseInputComponent from "./components/UseInputComponent";
 import UseTabComponent from "./components/UseTabComponent";
 import UseTitle from "./components/UseTitle";
+import UseClick from "./components/UseClick";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <hr />
       <UseTitle />
       <hr />
+      <UseClick/>
     </div>
   );
 }
