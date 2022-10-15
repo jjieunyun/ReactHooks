@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React from 'react';
 import useFullscreen from "../Hooks/useFullscroll";
 
 function UseFullscreen(props) {

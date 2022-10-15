@@ -10,6 +10,7 @@ import UseFadeIn from "./components/UseFadeIn";
 import UseNetwork from "./components/UseNetwork";
 import UseScroll from "./components/UseScroll";
 import UseFullscreen from "./components/UseFullscreen";
+import UseNotification from "./Hooks/useNotification";
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
         <UseScroll/>
         <hr/>
         <UseFullscreen/>
+      <hr/>
+      <UseNotification/>
     </div>
   );
 }
