@@ -4,6 +4,7 @@ import UseTabComponent from "./components/UseTabComponent";
 import UseTitle from "./components/UseTitle";
 import UseClick from "./components/UseClick";
 import UseConfirm from "./components/UseConfirm";
+import UsePreventLeave from "./components/UsePreventLeave";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <UseClick/>
       <hr/>
       <UseConfirm/>
+      <hr/>
+      <UsePreventLeave/>
     </div>
   );
 }
