@@ -8,6 +8,7 @@ import UsePreventLeave from "./components/UsePreventLeave";
 import UseBeforeLeave from "./components/UseBeforeLeave";
 import UseFadeIn from "./components/UseFadeIn";
 import UseNetwork from "./components/UseNetwork";
+import UseScroll from "./components/UseScroll";
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
       <UseFadeIn/>
       <hr/>
       <UseNetwork/>
+    <hr/>
+        <UseScroll/>
     </div>
   );
 }
