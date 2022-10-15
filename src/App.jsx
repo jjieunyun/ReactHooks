@@ -3,6 +3,7 @@ import UseInputComponent from "./components/UseInputComponent";
 import UseTabComponent from "./components/UseTabComponent";
 import UseTitle from "./components/UseTitle";
 import UseClick from "./components/UseClick";
+import UseConfirm from "./components/UseConfirm";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <UseTitle />
       <hr />
       <UseClick/>
+      <hr/>
+      <UseConfirm/>
     </div>
   );
 }
